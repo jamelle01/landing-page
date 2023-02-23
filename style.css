@@ -14,7 +14,11 @@ body {
   font-weight: 400;
   color: #fff;
   font-family: Helvetica;
-  background: url("background.jpg") 0% 0% / cover no-repeat;
+  /* background: url("background.jpg") 0% 0% / cover no-repeat; */
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 html {
   height: 100%;
