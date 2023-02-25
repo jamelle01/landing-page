@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  text-shadow: 1px 1px 3px rgb(0, 0, 87);
 }
 html {
   height: 100%;
@@ -48,7 +49,7 @@ html {
   width: 100vw;
   height: 100vh;
   
-  background-color: rgba(38, 0, 255, 0.466);
+  background-color: rgba(38, 0, 255, 0.571);
   position: absolute;
   z-index: -1;
 }
@@ -73,11 +74,12 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 5vh;
 }
-h1 span{
-  color: #e97b1a;
-  font-weight: bolder; 
-  text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
+h1 span {
+  font-size: 1.5em;
+  color: #FF8000;
+  font-weight: bolder;
 }
+
 
 .details {
   font-size: 1.2rem;
@@ -87,6 +89,7 @@ h1 span{
   margin-bottom: 5vh;
   letter-spacing: 0.02em;
   line-height: 1.5;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
 }
 .connect{
   font-family: 'Roboto', sans-serif;
