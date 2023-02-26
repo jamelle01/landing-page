@@ -14,44 +14,47 @@ body {
   font-weight: 400;
   color: #fff;
   font-family: Helvetica;
-  /* background: url("background.jpg") 0% 0% / cover no-repeat; */
   background-image: url("/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   text-shadow: 1px 1px 3px rgb(0, 0, 87);
+  background-attachment: fixed;
 }
+
 html {
   height: 100%;
 }
 
 .triangle-left {
-	width: 0;
-	height: 0;
-    position: absolute;
-	border-top: 30vw solid transparent;
-	border-left: 30vw solid rgba(255, 94, 0, 0.907);
-	border-bottom: 50% solid transparent;
-    bottom: 0;
-    left: 0;
+  width: 0;
+  height: 0;
+  position: fixed;
+  border-top: 30vw solid transparent;
+  border-left: 30vw solid rgba(255, 94, 0, 0.907);
+  border-bottom: 50% solid transparent;
+  bottom: 0;
+  left: 0;
 }
+
 .triangle-right {
-	width: 0;
-	height: 0;
-    position: absolute;
-	border-top: 30vw solid transparent;
-	border-right: 30vw solid rgb(255, 94, 0,.907);
-	border-bottom: 50% solid transparent;
-    bottom: 0;
-    right: 0;
+  width: 0;
+  height: 0;
+  position: fixed;
+  border-top: 30vw solid transparent;
+  border-right: 30vw solid rgba(255, 94, 0, 0.907);
+  border-bottom: 50% solid transparent;
+  bottom: 0;
+  right: 0;
 }
-#bluebg{
+
+#bluebg {
   width: 100vw;
   height: 100vh;
-  
   background-color: rgba(38, 0, 255, 0.571);
-  position: absolute;
+  position: fixed;
   z-index: -1;
+  background-attachment: fixed;
 }
 .logo-img{
   width: 100%;
@@ -75,14 +78,14 @@ h1 {
   margin-bottom: 5vh;
 }
 h1 span {
-  font-size: 1.5em;
+  font-size: 1em;
   color: #FF8000;
   font-weight: bolder;
 }
 
 
 .details {
-  font-size: 1.2rem;
+  font-size: 1em;
   font-family: 'Roboto', sans-serif;
   width: 50vw;
   margin: auto;
